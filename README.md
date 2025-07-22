@@ -59,7 +59,5 @@ _Example: [Live Demo]( https://sakshigapat.github.io/Colour-Palette-Generator/)_
 
 ---
 
-## 📸 Screenshot
 
-Place this image in your repo as `screenshot.png`:
 
