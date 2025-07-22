@@ -1,0 +1,100 @@
+/* Add this below the previous CSS */
+
+h1{
+    padding-left: 500px;
+}
+.instructions {
+  background-color: burlywood;
+  padding: 1rem;
+  margin: 1rem auto;
+  width: 80%;
+  border-left: 4px solid #00b894;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: left;
+  border-radius: 10px;
+  
+}
+
+/* #generateBtn{
+    background-color: blueviolet;
+    color: white;
+  
+} */
+
+.center-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+button {
+  padding: 12px 25px;
+  font-size: 1rem;
+  background-color: #00b894;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #019170;
+}
+
+.custom-color-inputs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1rem auto;
+}
+
+.custom-color-inputs label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: 0.9rem;
+
+}
+
+.custom-color-inputs input {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 120px;
+  margin-top: 0.2rem;
+}
+
+.palette-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap; /* keeps them in one row */
+  overflow-x: auto;  /* enables horizontal scroll on smaller screens */
+  gap: 1rem;
+  padding: 2rem;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.color-box {
+  min-width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.color-box:hover {
+  transform: scale(1.05);
+ 
+}
