@@ -84,3 +84,36 @@ generatePalette();
 
 // Regenerate on button click
 generateBtn.addEventListener("click", generatePalette);
+
+function getContrastColor(hexColor) {
+  const r = parseInt(hexColor.substr(1, 2), 16);
+  const g = parseInt(hexColor.substr(3, 2), 16);
+  const b = parseInt(hexColor.substr(5, 2), 16);
+
+  // Calculate brightness (0–255)
+  const brightness = (r * 299 + g * 587 + b * 114) / 1000;
+
+  // Return black for light colors, white for dark
+  return brightness > 128 ? '#000000' : '#FFFFFF';
+}
+
+function createColorBox(color) {
+  const box = document.createElement("div");
+  box.className = "color-box";
+  box.style.backgroundColor = color;
+
+  // Get best contrast color for text
+  const textColor = getContrastColor(color);
+  box.style.color = textColor;
+
+  box.textContent = color;
+
+  box.addEventListener("click", () => {
+    navigator.clipboard.writeText(color);
+    alert(`Copied ${color} to clipboard!`);
+  });
+
+  return box;
+}
+
+
