@@ -16,7 +16,7 @@ A simple and beautiful web application to generate color palettes using random c
 
 ## 📷 Demo
 
-![Color Palette Generator Screenshot](screenshot.png)
+![Color Palette Generator Screenshot](project colorpalettegenerator.png)
 
 ---
 
@@ -55,7 +55,7 @@ A simple and beautiful web application to generate color palettes using random c
 ## 🌐 Live Site (Optional)
 
 You can host it using GitHub Pages or Netlify.  
-_Example: [Live Demo](https://your-username.github.io/color-palette-generator)_
+_Example: [Live Demo]( https://sakshigapat.github.io/Colour-Palette-Generator/)_
 
 ---
 
