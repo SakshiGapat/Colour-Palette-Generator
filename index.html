@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Color Palette Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🎨 Color Palette Generator</h1>
+    <div class="center-btn">
+  <button id="generateBtn">Generate Palette</button>
+   </div>
+    
+  </header>
+
+  <section class="instructions">
+    <h2>🧾 How to Use</h2>
+    <p>🎲 Click "Generate Palette" to get random colors.</p>
+    <p>🖱️ Click any color box to copy the HEX code.</p>
+    <p>🔒 Enter HEX codes manually if you want specific colors (or leave blank for random).</p>
+  </section>
+
+  <section class="custom-color-inputs" id="customColors">
+    <label>Color 1: <input type="text" placeholder="#FF5733" /></label>
+    <label>Color 2: <input type="text" placeholder="#33FF57" /></label>
+    <label>Color 3: <input type="text" placeholder="#3357FF" /></label>
+    <label>Color 4: <input type="text" placeholder="#F0F" /></label>
+    <label>Color 5: <input type="text" placeholder="#000" /></label>
+  </section>
+
+  <div class="palette-container" id="palette">
+    <!-- Color blocks added here -->
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
