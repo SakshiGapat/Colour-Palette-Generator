@@ -11,6 +11,7 @@ A simple and beautiful web application to generate color palettes using random c
 - 🖱️ Click any color block to copy its HEX code
 - 🌈 Leave inputs empty for auto-generated random colors
 - 📱 Responsive layout for mobile and desktop
+- 🌓 Auto-adjusting contrast text color for better readability based on background.
 
 ---
 

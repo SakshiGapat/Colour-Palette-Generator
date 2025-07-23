@@ -85,6 +85,7 @@ generatePalette();
 // Regenerate on button click
 generateBtn.addEventListener("click", generatePalette);
 
+
 function getContrastColor(hexColor) {
   const r = parseInt(hexColor.substr(1, 2), 16);
   const g = parseInt(hexColor.substr(3, 2), 16);
